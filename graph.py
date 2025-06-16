@@ -4,7 +4,7 @@ from agents.tool_agent import ToolAgent
 from agents.reflection_agent import ReflectionAgent
 from tools import get_search_tool, get_calculator_tool
 from state import WorkflowState
-from IPython.display import Image,display
+
 
 def build_workflow():
     # Initialize agents and tools
